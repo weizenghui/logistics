@@ -50,11 +50,12 @@ class JuHeChannel extends Channel
      *
      * @throws \Exception
      */
-    public function request(string $code, string $company = ''): array
+    public function request(string $code, string $company = '',array $extend = []): array
     {
         try {
             $params = $this->setRequestParam($code, $company);
             $params['no'] = $code;
+            if($extend) $params = array_merge($params, $extend);
             $response = $this->get($this->url, $params);
             $this->toArray($response);
             $this->format();
