@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: WytheHuang
+ * User: WuweiHuang
  * Date: 2018/12/28
  * Time: 22:46.
  */
@@ -10,7 +10,7 @@ declare(strict_types=1);
 /*
  * This file is part of the uuk020/logistics.
  *
- * (c) WytheHuang<wythe.huangw@gmail.com>
+ * (c) WuweiHuang<wuwei.huangw@gmail.com>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -31,7 +31,7 @@ class Factory
     /**
      * 获取默认查询类名称.
      *
-     * @throws \Wythe\Logistics\Exceptions\Exception
+     * @throws \Wuwei\Logistics\Exceptions\Exception
      */
     public function getDefault(): string
     {
@@ -57,7 +57,7 @@ class Factory
      *
      * @return mixed
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
      */
     public function createChannel(string $name = '')
     {

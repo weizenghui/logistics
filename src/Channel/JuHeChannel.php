@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: WytheHuang
+ * User: WuweiHuang
  * Date: 2019/6/23
  * Time: 0:17.
  */
@@ -11,7 +11,7 @@ declare(strict_types=1);
 /*
  * This file is part of the uuk020/logistics.
  *
- * (c) WytheHuang<wythe.huangw@gmail.com>
+ * (c) WuweiHuang<wuwei.huangw@gmail.com>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -35,12 +35,12 @@ class JuHeChannel extends Channel
     /**
      * 构造请求参数.
      *
-     * @throws \Wythe\Logistics\Exceptions\HttpException
+     * @throws \Wuwei\Logistics\Exceptions\HttpException
      */
     private function setRequestParam(string $code, string $company): array
     {
         $config = $this->getChannelConfig();
-        $companyCode = (new \Wythe\Logistics\SupportLogistics())->getCode($this->getClassName(), $code, $company);
+        $companyCode = (new \Wuwei\Logistics\SupportLogistics())->getCode($this->getClassName(), $code, $company);
 
         return ['key' => $config['app_key'], 'com' => $companyCode];
     }

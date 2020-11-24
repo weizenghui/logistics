@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: WytheHuang
+ * User: WuweiHuang
  * Date: 2018/12/24
  * Time: 21:32.
  */
@@ -11,7 +11,7 @@ declare(strict_types=1);
 /*
  * This file is part of the uuk020/logistics.
  *
- * (c) WytheHuang<wythe.huangw@gmail.com>
+ * (c) WuweiHuang<wuwei.huangw@gmail.com>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -53,7 +53,7 @@ abstract class Channel
     /**
      * 设置请求选项.
      *
-     * @return \Wythe\Logistics\Channel\Channel
+     * @return \Wuwei\Logistics\Channel\Channel
      */
     public function setRequestOption(array $option): self
     {

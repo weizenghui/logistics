@@ -5,7 +5,7 @@ declare(strict_types=1);
 /*
  * This file is part of the uuk020/logistics.
  *
- * (c) WytheHuang<wythe.huangw@gmail.com>
+ * (c) WuweiHuang<wuwei.huangw@gmail.com>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -45,7 +45,7 @@ class Logistics
     /**
      * 快递渠道工厂
      *
-     * @var \Wythe\Logistics\Factory
+     * @var \Wuwei\Logistics\Factory
      */
     protected $factory;
 
@@ -76,8 +76,8 @@ class Logistics
      *
      * @param array $channels
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function query(string $code, $channels = ['kuaidibird'], string $company = '',array $extend = []): array
     {
@@ -126,8 +126,8 @@ class Logistics
      *
      * @param array $channels
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function queryByProxy(array $proxy, string $code, $channels = ['kuaidiBird'], string $company = ''): array
     {

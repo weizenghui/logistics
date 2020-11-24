@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: WytheHuang
+ * User: WuweiHuang
  * Date: 2019/6/23
  * Time: 0:12.
  */
@@ -10,7 +10,7 @@ declare(strict_types=1);
 /*
  * This file is part of the uuk020/logistics.
  *
- * (c) WytheHuang<wythe.huangw@gmail.com>
+ * (c) WuweiHuang<wuwei.huangw@gmail.com>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -81,7 +81,7 @@ class SupportLogistics
     /**
      * 获取物流公司编码
      *
-     * @throws \Wythe\Logistics\Exceptions\HttpException
+     * @throws \Wuwei\Logistics\Exceptions\HttpException
      */
     public function getCode(string $channel, string $code, string $companyName = ''): string
     {

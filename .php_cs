@@ -1,8 +1,8 @@
 <?php
 $header = <<<EOF
-This file is part of the wythe/logistics.
+This file is part of the wuwei/logistics.
 
-(c) wythe <wythe.huangw@gmail.com>
+(c) wuwei <wuwei.huangw@gmail.com>
 
 This source file is subject to the MIT license that is bundled.
 EOF;

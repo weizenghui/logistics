@@ -4,10 +4,10 @@
 
 [![Build Status](https://travis-ci.org/uuk020/logistics.svg?branch=master)](https://travis-ci.org/uuk020/logistics)
 ![StyleCI build status](https://github.styleci.io/repos/163085695/shield)
-[![Latest Stable Version](https://poser.pugx.org/wythe/logistics/v/stable)](https://packagist.org/packages/wythe/logistics)
-[![Total Downloads](https://poser.pugx.org/wythe/logistics/downloads)](https://packagist.org/packages/wythe/logistics)
-[![Latest Unstable Version](https://poser.pugx.org/wythe/logistics/v/unstable)](https://packagist.org/packages/wythe/logistics)
-[![License](https://poser.pugx.org/wythe/logistics/license)](https://packagist.org/packages/wythe/logistics)
+[![Latest Stable Version](https://poser.pugx.org/wuwei/logistics/v/stable)](https://packagist.org/packages/wuwei/logistics)
+[![Total Downloads](https://poser.pugx.org/wuwei/logistics/downloads)](https://packagist.org/packages/wuwei/logistics)
+[![Latest Unstable Version](https://poser.pugx.org/wuwei/logistics/v/unstable)](https://packagist.org/packages/wuwei/logistics)
+[![License](https://poser.pugx.org/wuwei/logistics/license)](https://packagist.org/packages/wuwei/logistics)
 
 
 ### 支持查询接口平台
@@ -29,12 +29,12 @@
 ### 安装
 
 ```shell
-$ composer require wythe/logistics -vvv
+$ composer require wuwei/logistics -vvv
 ```
 
 ### 使用
 ```php
-use Wythe\Logistics\Logistics;
+use Wuwei\Logistics\Logistics;
 $config = [
     'juhe' => ['app_key' => 'app_key', 'vip' => false],
     'shujuzhihui' => ['app_key' => 'app_key', 'vip' => false],
@@ -60,7 +60,7 @@ array queryByProxy(array $proxy, string $code, $channels = ['kuaidi100'], string
 
 ### 快递 100 接口获取物流信息 所有接口返回格式是统一
 ```php
-use Wythe\Logistics\Logistics;
+use Wuwei\Logistics\Logistics;
 $config = [
     'juhe' => ['app_key' => 'app_key', 'vip' => false],
     'shujuzhihui' => ['app_key' => 'app_key', 'vip' => false],
@@ -109,7 +109,7 @@ $logistics->query('12313131231', ['kuaidi100']);
 
 ### 多接口获取物流信息
 ```php
-use Wythe\Logistics\Logistics;
+use Wuwei\Logistics\Logistics;
 $config = [
     'juhe' => ['app_key' => 'app_key', 'vip' => false],
     'shujuzhihui' => ['app_key' => 'app_key', 'vip' => false],

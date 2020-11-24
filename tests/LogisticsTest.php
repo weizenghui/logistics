@@ -3,7 +3,7 @@
 /*
  * This file is part of the uuk020/logistics.
  *
- * (c) WytheHuang<wythe.huangw@gmail.com>
+ * (c) WuweiHuang<wuwei.huangw@gmail.com>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -43,8 +43,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试不传参数.
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelWithInvalidParams()
     {
@@ -60,8 +60,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试快递100渠道.
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelByKuaidi100()
     {
@@ -96,8 +96,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试极速数据.
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelByJiSu()
     {
@@ -132,8 +132,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试聚合数据.
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelByJuHe()
     {
@@ -168,8 +168,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试数据智汇.
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelByShuJu()
     {
@@ -204,8 +204,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试快递鸟
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelByKuaiDiBird()
     {
@@ -240,8 +240,8 @@ class LogisticsTest extends TestCase
     /**
      * 测试全部渠道.
      *
-     * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
-     * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
+     * @throws \Wuwei\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Wuwei\Logistics\Exceptions\NoQueryAvailableException
      */
     public function testChannelByBoth()
     {
