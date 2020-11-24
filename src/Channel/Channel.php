@@ -92,7 +92,7 @@ abstract class Channel
     /**
      * 调用查询接口.
      */
-    abstract public function request(string $code, string $company = ''): array;
+    abstract public function request(string $code, string $company = '', array $extend = []): array;
 
     /**
      * 转换为数组.
