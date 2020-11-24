@@ -79,7 +79,7 @@ class Logistics
      * @throws \Wythe\Logistics\Exceptions\InvalidArgumentException
      * @throws \Wythe\Logistics\Exceptions\NoQueryAvailableException
      */
-    public function query(string $code, $channels = ['kuaidibird'], string $company = ''): array
+    public function query(string $code, $channels = ['kuaidibird'], string $company = '',array $extend = []): array
     {
         $results = [];
         if (empty($code)) {
@@ -91,7 +91,7 @@ class Logistics
         foreach ($channels as $channelName) {
             $channel = $this->channelMap($channelName);
             try {
-                $request = $this->factory->createChannel($channel)->request($code, $company);
+                $request = $this->factory->createChannel($channel)->request($code, $company, $extend);
                 if (1 === $request['status']) {
                     $results[$channelName] = [
                         'channel' => $channelName,
