@@ -39,11 +39,12 @@ class JiSuChannel extends Channel
      *
      * @throws \Wythe\Logistics\Exceptions\HttpException
      */
-    public function request(string $code, string $company = ''): array
+    public function request(string $code, string $company = '',array $extend = []): array
     {
         try {
             $config = $this->getChannelConfig();
-            $params = ['type' => 'auto','appkey' => $config['app_key'], 'number' => $code, 'mobile' => $company];
+            $params = ['type' => 'auto','appkey' => $config['app_key'], 'number' => $code];
+            if($extend) $params = array_merge($params,$extend);
             $response = $this->get($this->url, $params);
             $this->toArray($response);
             $this->format();
