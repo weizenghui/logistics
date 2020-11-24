@@ -36,7 +36,7 @@ class KuaiDi100Channel extends Channel
      *
      * @throws \Exception
      */
-    public function request(string $code, string $company = ''): array
+    public function request(string $code, string $company = '', array $extend = []): array
     {
         try {
             $companyCode = (new \Wythe\Logistics\SupportLogistics())->getCode($this->getClassName(), $code, $company);
