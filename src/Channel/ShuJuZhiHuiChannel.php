@@ -55,11 +55,12 @@ class ShuJuZhiHuiChannel extends Channel
      *
      * @throws \Wythe\Logistics\Exceptions\HttpException
      */
-    public function request(string $code, string $company = ''): array
+    public function request(string $code, string $company = '', array $extend = []): array
     {
         try {
             $config = $this->getChannelConfig();
             $params = ['appKey' => $config['app_key'], 'expressNo' => $code];
+            if($extend) $params = array_merge($params, $extend);
             $response = $this->post($this->url, $params);
             $this->toArray($response);
             $this->format();
