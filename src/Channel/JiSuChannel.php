@@ -17,9 +17,9 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics\Channel;
+namespace Wuwei\Logistics\Channel;
 
-use Wythe\Logistics\Exceptions\HttpException;
+use Wuwei\Logistics\Exceptions\HttpException;
 
 /**
  * 极速数据物流查询.
@@ -31,7 +31,7 @@ class JiSuChannel extends Channel
      */
     public function __construct()
     {
-        $this->url = 'https://api.jisuapi.com/express/query'.;
+        $this->url = 'https://api.jisuapi.com/express/query';
     }
 
     /**

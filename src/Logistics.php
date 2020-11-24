@@ -11,10 +11,10 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics;
+namespace Wuwei\Logistics;
 
-use Wythe\Logistics\Exceptions\InvalidArgumentException;
-use Wythe\Logistics\Exceptions\NoQueryAvailableException;
+use Wuwei\Logistics\Exceptions\InvalidArgumentException;
+use Wuwei\Logistics\Exceptions\NoQueryAvailableException;
 
 /**
  * 抓取物流信息.

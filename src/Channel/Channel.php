@@ -17,10 +17,10 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics\Channel;
+namespace Wuwei\Logistics\Channel;
 
-use Wythe\Logistics\Config;
-use Wythe\Logistics\Traits\HttpRequest;
+use Wuwei\Logistics\Config;
+use Wuwei\Logistics\Traits\HttpRequest;
 
 abstract class Channel
 {

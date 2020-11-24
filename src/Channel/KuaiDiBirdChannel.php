@@ -19,7 +19,7 @@ declare(strict_types=1);
 
 namespace Wythe\Logistics\Channel;
 
-use Wythe\Logistics\Traits\HttpRequest;
+use Wuwei\Logistics\Traits\HttpRequest;
 
 /**
  * 快递鸟查询物流接口.

@@ -16,9 +16,9 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics;
+namespace Wuwei\Logistics;
 
-use Wythe\Logistics\Traits\HttpRequest;
+use Wuwei\Logistics\Traits\HttpRequest;
 
 class SupportLogistics
 {

@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics\Tests;
+namespace Wuwei\Logistics\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Wythe\Logistics\Exceptions\ConfigNotFoundException;
-use Wythe\Logistics\Exceptions\ConfigValidateException;
-use Wythe\Logistics\Exceptions\InvalidArgumentException;
-use Wythe\Logistics\Logistics;
+use Wuwei\Logistics\Exceptions\ConfigNotFoundException;
+use Wuwei\Logistics\Exceptions\ConfigValidateException;
+use Wuwei\Logistics\Exceptions\InvalidArgumentException;
+use Wuwei\Logistics\Logistics;
 
 class LogisticsTest extends TestCase
 {

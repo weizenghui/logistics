@@ -16,11 +16,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics;
+namespace Wuwei\Logistics;
 
-use Wythe\Logistics\Exceptions\InvalidArgumentException;
-use Wythe\Logistics\Exceptions\Exception;
-use Wythe\Logistics\Channel\Channel;
+use Wuwei\Logistics\Exceptions\InvalidArgumentException;
+use Wuwei\Logistics\Exceptions\Exception;
+use Wuwei\Logistics\Channel\Channel;
 
 class Factory
 {

@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics\Tests;
+namespace Wuwei\Logistics\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Wythe\Logistics\Factory;
-use Wythe\Logistics\SupportLogistics;
+use Wuwei\Logistics\Factory;
+use Wuwei\Logistics\SupportLogistics;
 
 class CommonMethodTest extends TestCase
 {

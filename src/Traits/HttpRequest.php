@@ -16,9 +16,9 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics\Traits;
+namespace Wuwei\Logistics\Traits;
 
-use Wythe\Logistics\Exceptions\HttpException;
+use Wuwei\Logistics\Exceptions\HttpException;
 
 trait HttpRequest
 {

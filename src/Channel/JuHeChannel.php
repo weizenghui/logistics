@@ -17,7 +17,7 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Wythe\Logistics\Channel;
+namespace Wuwei\Logistics\Channel;
 
 /**
  * 聚合数据 查询物流接口.
